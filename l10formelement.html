@@ -27,7 +27,7 @@
             <br/><br/>
 
             <label for="gender">Gender</label>
-            <input type="radio" name="gender" id="genderm" class="" value="1"/><label for="genderm">Male</label>
+            <input type="radio" name="gender" id="genderm" class="" value="1" checked/><label for="genderm">Male</label>
             <input type="radio" name="gender" id="genderf" class="" value="0"/><label for="genderf">Female</label>
             <input type="radio" name="gender" id="gendero" class="" value="2"/><label for="gendero">Other</label>
 
@@ -35,17 +35,93 @@
             <label for="fruit">Fruits</label>
             <input type="radio" name="fruit" id="fruitap" class="" value="1"/><label for="fruitap">Apple</label>
             <input type="radio" name="fruit" id="fruitor" class="" value="2"/><label for="fruitor">Orange</label>
-            <input type="radio" name="fruit" id="fruitpp" class="" value="3"/><label for="fruitpp">Pineapple</label>
+            <input type="radio" name="fruit" id="fruitpp" class="" value="3" checked/><label for="fruitpp">Pineapple</label>
 
             <br/><br/>
 
             <label for="favcolor">Choose your fav colors</label>
             <input type="checkbox" name="favcolor" id="favrd" class="" value="1"/><label for="favrd">Red</label>
-            <input type="checkbox" name="favcolor" id="favgr" class="" value="2"/><label for="favgr">Green</label>
-            <input type="checkbox" name="favcolor" id="favbl" class="" value="3"/><label for="favbl">Blue</label>
+            <input type="checkbox" name="favcolor" id="favgr" class="" value="2" checked/><label for="favgr">Green</label>
+            <input type="checkbox" name="favcolor" id="favbl" class="" value="3" checked/><label for="favbl">Blue</label>
             <input type="checkbox" name="favcolor" id="favwh" class="" value="4"/><label for="favwh">White</label>
+
+            <br/><br/>
+
+            <label for="country">Citizen</label>
+
+            <select name="country" id="country" class="">
+                <option selected disabled>Choose Country</option>
+                <option value="mm">Myanmar</option>
+                <option value="thi">Thailand</option>
+                <option value="php">Philippine</option>
+                <option value="slk">Srilanka</option>
+            </select>
+
+            <br/><br/>
+
+            <label for="role">Role</label>
+
+            <select name="role" id="role" class="" multiple>
+                <option value="1">Manager</option>
+                <option value="2">Editor</option>
+                <option value="3">Supervisor</option>
+                <option value="4">Sales</option>
+            </select>
+            
+            <br/><br/>
+
+            <label for="dob">DOB</label>
+            <input type="date" name="dob" id="dob" class=""/>
+
+            <br/><br/>
+
+            <label for="bookingtime">Booking Time</label>
+            <input type="time" name="bookingtime" id="bookingtime" class=""/>
+
+            <br/><br/>
+
+            <label for="apt">Appointment</label>
+            <input type="datetime-local" name="apt" id="apt" class=""/>
+
+            <br/><br/>
+
+            <label for="volume">Volume</label>
+            <input type="range" name="volume" id="volume" class="" min="0" max="100" value="20" step="20"/>
+
+            <br/><br/>
+
+            <label for="nrc">NRC</label>
+            <input type="file" name="nrc" id="nrc" class="" accept="image/*" capture="user" multiple/>
+
+            <br/><br/>
+
+            <label for="vdo">Video</label>
+            <input type="file" name="vdo" id="vdo" class="" accept="Video/*" capture="environment" multiple/>
+
+            <br/><br/>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="" placeholder="Enter your email"/>
+
+            <br/><br/>
+
+            <label for="bio">Bio</label>
+            <textarea name="bio" id="bio" class="" cols="" rows="3" placeholder="Enter your bio"></textarea>
+
+            <br/><br/>
+
+            <input type="text" name="test" id="test" class="" hidden />
+            <input type="hidden" name="abc" id="abc" class="" />
+
+            <br/><br/>
+
+            <input type="reset" name="cancel" id="cancel" class="" value="Cancel" />
+            <input type="button" name="login" id="login" class="" value="Login">
+
+            <button type="submit" name="signup" id="signup" class="">Signup</button>
+            <button type="button" name="register" id="register" class="">Register</button>
+
+            <input type="submit" name="signups" id="signups" class="" value="singup" />
         </form>
     </body>
 </html>
-
-20CB
