@@ -1,0 +1,33 @@
+.textalign{
+    /* text-align: left;
+    text-align: right;
+    text-align: center; */
+    text-align: justify;
+}
+
+.textdecoration{
+    /* text-decoration: underline;
+    text-decoration: overline; */
+    text-decoration: line-through;
+}
+
+#text{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+.textline{
+    /* letter-spacing: 3px;
+
+    line-height: 30px;
+    line-height: 3; */
+    line-height: 300%;
+}
+
+.textshadow{
+    color: transparent;
+    text-shadow: 5px 0 3px red, 0 5px 3px blue;
+}

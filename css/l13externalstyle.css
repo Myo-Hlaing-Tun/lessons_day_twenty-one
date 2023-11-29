@@ -7,3 +7,19 @@ h5, h4, h3{
     color: steelblue;
     font-size: 20px;
 }
+
+#myself{
+    color: violet;
+}
+
+#thd, #ygn, i{
+    color: blue;
+}
+
+.phone{
+    color: green;
+}
+
+.fontlg, u{
+    font-size: 30px;
+}
