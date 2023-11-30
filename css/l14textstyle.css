@@ -29,5 +29,6 @@ a{
 
 .textshadow{
     color: transparent;
-    text-shadow: 5px 0 3px red, 0 5px 3px blue;
+    /* text-shadow: -5px -5px 5px rgba(175, 117, 16, 0.8); */
+    text-shadow: 5px 0 3px red, 0 5px 3px blue, 0 -5px 5px yellow;
 }

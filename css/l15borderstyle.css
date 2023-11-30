@@ -1,0 +1,36 @@
+.bdstyle1{
+    border-style: solid;
+}
+.bdstyle2{
+    border-style: double;
+}
+.bdstyle3{
+    border-style: dotted;
+}
+.bdstyle4{
+    border-style: dashed;
+}
+.bdstyle5{
+    border-style: inset;
+}
+.bdstyle6{
+    border-style: outset;
+}
+.borderdesign{
+    width: 300px;
+    height: 300px;
+
+    /* background: yellow; */
+    background-color: orange;
+    border-style: solid;
+    /* border-radius: 150px; */
+    /* border-radius: 10px 50px; */
+
+    /* border-radius: 190%/190px;
+    border-radius: 190px/90%; */
+
+    border-radius: 20px 50px 100px 200px;
+    border: 3px dashed #05195c;
+}
+
+/* 29BD */
