@@ -33,4 +33,41 @@
     border: 3px dashed #05195c;
 }
 
-/* 29BD */
+ul{
+    /* list-style-type: none; */
+    list-style: none;
+}
+
+li{
+    /* list-style-type: none; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: decimal; */
+    list-style-type: decimal-leading-zero;
+    border: 1px solid orange;
+    border: 1px;
+    border-style: dashed;
+    border-color: orange;
+
+    list-style-position: inside;
+}
+
+input[type="text"]{
+    width: 300px;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+}
+
+input[type="password"],input[type="email"]{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+body{
+    /* url = uniform image locator */
+    background: url(../../image/logo1.png);
+    background-repeat: no-repeat;   
+}
+
+/* 30BG */
