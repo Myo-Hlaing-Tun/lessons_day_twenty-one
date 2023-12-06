@@ -1,0 +1,46 @@
+/* Font Integrate */
+/* (i) Local Machine Integration
+   (ii) Global Integration or Project Folder Integration */
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+*{
+   color: red;
+   cursor: pointer;
+}
+
+/* (i) Local Machine Integration */
+
+/* body{
+   font-family: Arial;
+}
+
+.p1{
+   font-family: Arial;
+}
+
+.p2{
+   font-family: "Time New Roman";
+}
+
+.p3{
+   font-family: Century, Arial, "Time New Roman";
+}
+
+body{
+   font-family: Stick, sans-serif ;
+} */
+
+.p1,.p4{
+   font-family: Stick, sans-serif;
+}
+
+.p2{
+   font-family: "Akaya Telivigala";
+}
+
+.p3{
+   font-family: "Akaya Telivigala";
+   color: blue;
+}
