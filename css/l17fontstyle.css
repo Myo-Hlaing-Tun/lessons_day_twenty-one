@@ -2,12 +2,17 @@
 /* (i) Local Machine Integration
    (ii) Global Integration or Project Folder Integration */
 
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Stick&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap'); */
+@import url('./l17addfile.css');
 
 *{
-   color: red;
    cursor: pointer;
+}
+
+.p2 {
+   color: red !important;
+   font-size: 50px;
 }
 
 /* (i) Local Machine Integration */
@@ -33,14 +38,15 @@ body{
 } */
 
 .p1,.p4{
-   font-family: Stick, sans-serif;
+   font-family: abc, sans-serif;
 }
 
 .p2{
-   font-family: "Akaya Telivigala";
+   color: violet !important;
+   font-size: 30px !important;
 }
 
 .p3{
-   font-family: "Akaya Telivigala";
+   font-family: def;
    color: blue;
 }
