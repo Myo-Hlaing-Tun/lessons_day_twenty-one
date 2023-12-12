@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combinator</title>
+        <link rel="stylesheet" href="./css/l18combinator.css">
+    </head>
+    <body>
+        <h4>Tag to Tag</h4>
+
+        <div>
+            <span>I am span tag inside of div > span</span>
+        </div>
+        <div>I am div tag outside of div > span</div>
+        <span>I am span tag outside of div</span>
+        
+        <hr/>
+
+        <h4>Multi Tag to Tag</h4>
+
+        <div>
+            <span>
+                <p>I am p tag inside of div > span > p</p>
+            </span>
+        </div>
+        <div>
+            <p>I am p tag inside of div > p</p>
+        </div>
+        <span>
+            <p>I am p tag outside of div span > p</p>
+        </span>
+
+        <hr/>
+
+        <h4>Tag to Class</h4>
+
+        <div>
+            <p class="address">I am p tag inside of div > p (address)</p>
+            <span>
+                <p class="address">I am p tag inside of div > span > p(address)</p>
+            </span>
+        </div>
+        
+        <p class="address">I am p tag outside of div > p(address)</p>
+
+        <span>
+            <i class="address">I am p tag outside of div > span > i(address)</i>
+        </span>
+
+        <hr/>
+
+        <h4>Multi Tags to Same Class</h4>
+
+        <div>
+            <span>
+                <small class="name">I am b tag inside of div > span > small(name)</small>
+            </span>
+            <p class="name">I am p tag inside of div > p(name)</p>
+            <p>I am p tag inside of div > p</p>
+        </div>
+
+        <hr/>
+
+        <h4>Class to Class</h4>
+
+        <div class="bank">
+            <b>I am p tag inside of div > p(bank)</b>
+            <br/>
+
+            <span class="money">
+                <b class="currency">i am b tag inside of div(bank) > span(money) > b(currency)</b>
+            </span>
+        </div>
+
+        <hr/>
+
+        <h4>Class to Tag</h4>
+
+        <div class="container">
+           <p>I am p tag inside of div(container) > p</p>
+           <b>I am p tag inside of div(container) > b</b>
+        </div>
+
+        <hr/>
+
+        
+        <h4>Class to Multi Tags</h4>
+
+        <div class="container">
+           <p>I am p tag inside of div(container) > p</p>
+           <b>
+                <span>I am p tag inside of div(container) > b</span>
+            </b>
+        </div>
+
+        <hr/>
+
+        <h4>Same Class</h4>
+        <div>
+            <ul>
+                <li class="mobile jpn">Sony Phone</li>
+                <li class="mobile cn">Mi Phone</li>
+                <li class="mobile indo">Samsaung Phone</li>
+                <li class="mobile us">iPhone</li>
+            </ul>
+        </div>
+
+        <hr/>
+
+        <h4>Class to Same Class</h4>
+        <div class="vehicle">
+            <ul>
+                <li class="car jpn">Toyota</li>
+                <li class="car cn">Suzuki</li>
+                <li class="car us">Mazda</li>
+            </ul>
+        </div>
+
+        <hr/>
+
+        <h4>Class to Tag by Group Selector</h4>
+        <div class="div1">
+            <p>I am p tag inside of div(container) > p</p>
+            <b>I am p tag inside of div(container) > b</b>
+        </div>
+    </body>
+</html>

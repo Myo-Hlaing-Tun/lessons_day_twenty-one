@@ -1,0 +1,68 @@
+/* span{
+    color: red;
+} */
+
+/* div span p{
+    color: red;
+} */
+
+/* div .address{
+    color: red;
+} */
+
+/* div span .address{
+    color: red;
+} */
+
+/* div span small.name{
+    color: red;
+} */
+
+/* .bank .money{
+    color: red;
+} */
+
+/* .bank .currency{
+    color: red;
+} */
+
+/* .money .currency{
+    color: red;
+} */
+
+/* .bank .money .currency{
+    color:red;
+} */
+
+/* .container b{
+    color: red;
+} */
+
+/* class to multi tag */
+/* .container b span{
+    color: red;
+} */
+
+/* .mobile.jpn{
+    color: red;
+}
+.mobile.cn{
+    color: blue;
+}
+.mobile.indo{
+    color: green;
+} */
+
+/* .vehicle .car.jpn{
+    color: red;
+}
+
+.vehicle .car.us{
+    color: blue;
+} */
+
+.div1 p,.div1 b{
+    color: red;
+}
+
+/* 11CT */
