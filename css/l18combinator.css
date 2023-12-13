@@ -61,8 +61,34 @@
     color: blue;
 } */
 
-.div1 p,.div1 b{
+/* .div1 p,.div1 b{
+    color: red;
+} */
+
+/* .div2 > p{
+    color: red;
+} */
+
+/* .div3 > i{
+    color: red;
+} */
+
+/* .div2 > b{
+    color: red;
+} */
+
+/* .div2 > .div3{
+    color: red;
+} */
+
+/* .div4 > b{
+    color: red;
+} */
+
+/* .div4 ~ p{
+    color: red;
+} */
+
+.div9 + b {
     color: red;
 }
-
-/* 11CT */
